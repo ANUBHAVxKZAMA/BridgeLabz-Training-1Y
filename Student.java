@@ -1,6 +1,6 @@
 import java.util.*;
 class Student{
-	int id,age; String name, status;
+	int id,age; String name;
 	public static void main (String args[]){
 		Student s1=new Student();
 		Scanner sc=new Scanner (System.in);
@@ -13,7 +13,7 @@ class Student{
 		s1.DisplayDetails();
 	}
 	public void DisplayDetails(){
-		status= "Active";
+		String status= "Active";
 		System.out.println("ID: " +id);
 		System.out.println("NAME: " +name);
 		System.out.println("AGE: " +age);
