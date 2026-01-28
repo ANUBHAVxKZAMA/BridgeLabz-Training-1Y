@@ -1,5 +1,5 @@
 import java.util.*;
-class Student{
+class VariableExample{
 	int id,age; String name;
 	public static void main (String args[]){
 		Student s1=new Student();
