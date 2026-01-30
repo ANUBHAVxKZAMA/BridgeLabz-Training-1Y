@@ -8,13 +8,13 @@ public class IsLargest{
 		int y=sc.nextInt();
 		System.out.println("Enter third number:");
 		int z=sc.nextInt();
-		if(x>y&&y>z)
+		if(x>y&&x>z)
 		{
 			System.out.println("Is the first number the greatest? Yes");
 		    System.out.println("Is the second number the greatest? No");
 		    System.out.println("Is the third number the greatest? No");
 		}
-		else if(y>x&&x>z)
+		else if(y>x&&y>z)
 		{
 			System.out.println("Is the first number the greatest? No");
 		    System.out.println("Is the second number the greatest? Yes");
