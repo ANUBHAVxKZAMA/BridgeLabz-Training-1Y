@@ -1,5 +1,5 @@
 import java.util.*;
-public class LeapYear{
+public class LeapYear2{
 	public static void main (String args[]){
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter year:");
@@ -10,13 +10,10 @@ public class LeapYear{
 		}
 		else 
 		{
-			if(x%4==0&&x%100!=0)
-			System.out.print("Leap year!!!");
-		    else if(x%400==0)
+			if((x%400==0)||(x%4==0&&x%100!=0))
 			System.out.print("Leap year!!!");
 		    else
 			System.out.print("Not a Leap year!!!");
 		}
 	}
 }
-		
