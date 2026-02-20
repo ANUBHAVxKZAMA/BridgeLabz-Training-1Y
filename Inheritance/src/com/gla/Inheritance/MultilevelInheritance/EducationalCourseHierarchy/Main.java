@@ -1,3 +1,4 @@
+package com.gla.Inheritance.MultilevelInheritance.EducationalCourseHierarchy;
 class Main {
     public static void main(String[] args) {
         PaidOnlineCourse c = new PaidOnlineCourse();
