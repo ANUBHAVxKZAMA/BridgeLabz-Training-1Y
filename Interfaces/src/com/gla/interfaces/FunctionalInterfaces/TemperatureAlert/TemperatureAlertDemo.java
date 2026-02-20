@@ -1,9 +1,5 @@
-package com.gla.interfaces.FunctionalInterfaces;
-@FunctionalInterface
-interface TemperatureCheck {
-    boolean check(double temperature);
-}
-public class TemperatureAlertSystem {
+package com.gla.interfaces.FunctionalInterfaces.TemperatureAlert;
+public class TemperatureAlertDemo {
     public static void main(String[] args) {
         TemperatureCheck alert = temp -> temp > 40;
         double temperature = 42;

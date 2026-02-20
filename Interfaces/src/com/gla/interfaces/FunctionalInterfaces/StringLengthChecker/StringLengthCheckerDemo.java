@@ -1,9 +1,5 @@
-package com.gla.interfaces.FunctionalInterfaces;
-@FunctionalInterface
-interface LengthValidator {
-    boolean validate(String message);
-}
-public class StringLengthChecker {
+package com.gla.interfaces.FunctionalInterfaces.StringLengthChecker;
+public class StringLengthCheckerDemo {
     public static void main(String[] args) {
         LengthValidator validator = msg -> msg.length() <= 20;
         String message = "Hello Interfaces";
