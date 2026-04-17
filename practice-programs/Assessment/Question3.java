@@ -11,5 +11,5 @@ public class Question3 {
                 s1 += s.charAt(i);
         }
         System.out.println(s1);
-}
+    }
 }
